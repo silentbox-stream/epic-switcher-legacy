@@ -13,7 +13,7 @@ public class EpicService : IEpicService {
       @"Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe");
   private readonly string _logFilePath = Path.Combine(
       Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-      @"EpicGamesLauncher\Saved\Config\Windows\GameUserSettings.ini");
+      @"EpicGamesLauncher\Saved\Config\WindowsEditor\GameUserSettings.ini");
   private readonly string _activeSessionsDir = Path.Combine(
           Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
           BaseFolderName, "Active Login Sessions"
@@ -116,7 +116,7 @@ public class EpicService : IEpicService {
     // Path where the `.ini` file should be copied
     string destinationFilePath = Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-        @"EpicGamesLauncher\Saved\Config\Windows\GameUserSettings.ini");
+        @"EpicGamesLauncher\Saved\Config\WindowsEditor\GameUserSettings.ini");
 
     if (File.Exists(destinationFilePath)) {
       File.Delete(destinationFilePath);
@@ -132,7 +132,7 @@ public class EpicService : IEpicService {
     // Path where the `.ini` file should be copied
     string destinationFilePath = Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-        @"EpicGamesLauncher\Saved\Config\Windows\GameUserSettings.ini");
+        @"EpicGamesLauncher\Saved\Config\WindowsEditor\GameUserSettings.ini");
 
     // Find the correct `.ini` file in "Active Login Sessions" based on the username
     string activeSessionsFolder = Path.Combine(

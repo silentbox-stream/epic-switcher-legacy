@@ -11,13 +11,13 @@ public static class Constants
     Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86),
     @"Epic Games\Launcher\Portal\Binaries\Win32\EpicGamesLauncher.exe");
 
-  public static readonly string GameUserSettingsFile = Path.Combine(
-      Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-      @"EpicGamesLauncher\Saved\Config\Windows\GameUserSettings.ini");
-
   public static readonly string GameUserSettingsDir = Path.Combine(
         Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-        @"EpicGamesLauncher\Saved\Config\Windows");
+        @"EpicGamesLauncher\Saved\Config\WindowsEditor");
+
+  public static readonly string GameUserSettingsFile = Path.Combine(
+      GameUserSettingsDir,
+      "GameUserSettings.ini");
 
   public static readonly string LogsDirectory = Path.Combine(
           Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
