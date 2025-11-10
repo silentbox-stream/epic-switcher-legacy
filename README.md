@@ -7,8 +7,8 @@
 
 <br/>
 
-> ⚠️ **This is the legacy C# version of Epic Switcher.**  
-> The actively maintained and improved version is now at [symonxdd/epic-switcher](https://github.com/symonxdd/epic-switcher)
+> **This is the fork of legacy C# version of Epic Switcher.**  
+> The original epic-switcher version is now wails app, whcih is browser window with go backend, not native gui app.
 
 <br/>
 
