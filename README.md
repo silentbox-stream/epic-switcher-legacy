@@ -1,5 +1,5 @@
 <div align="center">
-  <a href='https://github.com/symonxdd/epic-games-account-switcher/releases/latest/download/EpicSwitcherSetup-1.0.1.exe' target="_blank">
+  <a href='https://github.com/silentbox-stream/epic-games-account-switcher/releases/latest/download/EpicSwitcherSetup-1.0.2.exe' target="_blank">
     <img src="./Assets/capy_icon.png" alt="Project Icon" width="100" style="pointer-events: none;">
   </a>
   <h1>Epic Switcher</h1>
@@ -7,8 +7,8 @@
 
 <br/>
 
-> **This is the fork of legacy C# version of Epic Switcher.**  
-> The original epic-switcher version is now wails app, whcih is browser window with go backend, not native gui app.
+> **This is the old native C# version of Epic Switcher.**  
+> The new version with web browser based UI is now at [symonxdd/epic-switcher](https://github.com/symonxdd/epic-switcher)
 
 <br/>
 
@@ -23,8 +23,8 @@ Epic Switcher is designed to facilitate switching between accounts in the Epic G
 
 ## 🚀 Downloads
 
-Grab the download directly from [**here**](https://github.com/symonxdd/epic-games-account-switcher/releases/latest/download/EpicSwitcherSetup-1.0.1.exe)  
-Or get the latest release from the [**Releases section**](https://github.com/symonxdd/epic-games-account-switcher/releases/latest)
+Grab the download directly from [**here**](https://github.com/silentbox-stream/epic-games-account-switcher/releases/latest/download/EpicSwitcherSetup-1.0.2.exe)  
+Or get the latest release from the [**Releases section**](https://github.com/silentbox-stream/epic-games-account-switcher/releases/latest)
 
 <br/>
 
@@ -32,7 +32,7 @@ Or get the latest release from the [**Releases section**](https://github.com/sym
 
 The current installation does not include the required .NET runtime (version 8 or higher). If the runtime is not already installed on your system, Epic Switcher will prompt you upon launch and provide a direct link to the latest official download.
 
-➡️ *A future release is planned to include a version with the packaged runtime for added convenience.*
+➡️ ~~A future release is planned to include a version with the packaged runtime for added convenience.~~
 
 <br/>
 
