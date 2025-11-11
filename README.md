@@ -7,6 +7,7 @@
 
 <br/>
 
+> [!TIP]
 > **This is the old native C# version of Epic Switcher.**  
 > The new version with web browser based UI is now at [symonxdd/epic-switcher](https://github.com/symonxdd/epic-switcher)
 
@@ -23,11 +24,12 @@ Epic Switcher is designed to facilitate switching between accounts in the Epic G
 
 ## 🚀 Downloads
 
-Grab the download directly from [**here**](https://github.com/silentbox-stream/epic-games-account-switcher/releases/latest/download/EpicSwitcherSetup-1.0.2.exe)  
-Or get the latest release from the [**Releases section**](https://github.com/silentbox-stream/epic-games-account-switcher/releases/latest)
+~Grab the download directly from [**here**](https://github.com/silentbox-stream/epic-games-account-switcher/releases/latest/download/EpicSwitcherSetup-1.0.2.exe)
+or get the latest release from the [**Releases section**](https://github.com/silentbox-stream/epic-games-account-switcher/releases/latest)~
 
-<br/>
-
+> [!NOTE]
+> No downloads provided at the moment, the only way to have new version is to compile the code.
+ 
 ## 💡 Good to know
 
 The current installation does not include the required .NET runtime (version 8 or higher). If the runtime is not already installed on your system, Epic Switcher will prompt you upon launch and provide a direct link to the latest official download.
